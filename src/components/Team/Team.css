@@ -1,0 +1,18 @@
+.team {
+    text-align: center;
+    padding: 32px;
+}
+
+.team h3 {
+    font-family: "vava";
+    font-size: 32px;
+    border-bottom: 4px solid var(--red);
+    display: inline-block;
+}
+
+.team .players {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}

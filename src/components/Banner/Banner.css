@@ -1,0 +1,8 @@
+.banner {
+    text-align: center;
+    color: var(--red);
+    font-family: "vava";
+    font-size: 28px;
+    background-color: var(--banner);
+    padding: 80px;
+}

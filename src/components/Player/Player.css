@@ -1,0 +1,44 @@
+.player {
+    width: 280px;
+}
+
+.player .header {
+    background-color: var(--dark_red);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.player img {
+    /* width: 100px; */
+    background-color: var(--background);
+    border-radius: 50%;
+    position: relative;
+    bottom: -50px;
+}
+
+.player .footer_player {
+    background: var(--background);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.player .footer_player h4 {
+    color: green;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.player .footer_player h5 {
+    color: var(--grey);
+    font-size: 18px;
+    line-height: 22px;
+    padding: 0 16px;
+}
+
+p {
+    color: var(--red);
+    font-family: "Fira-Bold";
+}

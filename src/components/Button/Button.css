@@ -1,0 +1,18 @@
+.btn {
+    background-color: var(--red);
+    border-radius: 10px;
+    font-weight: 800;
+    font-family: "vava";
+    font-size: 24px;
+    padding: 22px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.25s ease-in;
+    margin: 16px 0;
+}
+
+.btn:hover {
+    color: var(--red);
+    background-color: var(--background);
+    transition: background-color 0.15s ease-out;
+}

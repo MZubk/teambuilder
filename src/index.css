@@ -1,8 +1,34 @@
+:root {
+  --red: #F24452;
+  --dark_red: #40222D;
+  --blue: #3B668C;
+  --dark_blue: #254159;
+  --background: #131D26;
+  --banner: #13141f;
+  --grey: #C0C0C0;
+}
+
+@font-face {
+  font-family: "vava";
+  src: url(/public/font/Valorant.ttf);
+}
+
+@font-face {
+  font-family: "Fira-Bold";
+  src: url(/public/font/FiraCode-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Fira-Retina";
+  src: url(/public/font/FiraCode-Retina.ttf);
+}
+
 body {
+  background-color: var(--background);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif, "vava", "Fira-Bold", "Fira-Retina";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
