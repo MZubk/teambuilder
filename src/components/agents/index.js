@@ -40,7 +40,7 @@ const agentImages = {
   },
   Cypher: {
     image: cypherImage,
-    role: "Sentinala",
+    role: "Sentinela",
   },
   Deadlock: {
     image: deadlockImage,
