@@ -1,4 +1,4 @@
-import agentImages from "../agents";
+import agentImages from "../Agents";
 import "./Player.css";
 
 const Player = ({ agent, player }) => {
