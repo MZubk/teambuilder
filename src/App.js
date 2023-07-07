@@ -112,6 +112,10 @@ function App() {
     setPlayers([...players, player]);
   };
 
+  function deletePlayer() {
+    console.log("apagando player");
+  }
+
   return (
     <div className="App">
       <Banner />
@@ -120,16 +124,19 @@ function App() {
         agentList={agentList}
         newPlayerRegistered={(player) => newPlayerRegistered(player)}
       />
-      {mapsList.map((mapsList) => (
-        <Team
-          key={mapsList.name}
-          name={mapsList.name}
-          background={mapsList.background}
-          players={players.filter(
-            (player) => player.mapsList === mapsList.name
-          )}
-        />
-      ))}
+      <section className="team">
+        {mapsList.map((mapsList) => (
+          <Team
+            key={mapsList.name}
+            name={mapsList.name}
+            background={mapsList.background}
+            players={players.filter(
+              (player) => player.mapsList === mapsList.name
+            )}
+            onDelete={deletePlayer}
+          />
+        ))}
+      </section>
       <Footer />
     </div>
   );

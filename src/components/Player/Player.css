@@ -1,4 +1,5 @@
 .player {
+    position: relative;
     width: 280px;
 }
 
@@ -41,4 +42,26 @@
 p {
     color: var(--red);
     font-family: "Fira-Bold";
+}
+
+.delete {
+    font-family: "vava";
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    color: var(--grey);
+    background-color: var(--background);
+    padding: 3px 6px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.delete:hover {
+    font-weight: bold;
+    color: var(--red);
+}
+
+.delete:active {
+    color: var(--background);
+    background-color: var(--red);
 }

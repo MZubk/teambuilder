@@ -23,6 +23,7 @@
   src: url(/public/font/FiraCode-Retina.ttf);
 }
 
+
 body {
   background-color: var(--background);
   margin: 0;
