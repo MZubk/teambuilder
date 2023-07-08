@@ -18,7 +18,6 @@ const Player = ({ agent, player, onDelete }) => {
         <h5>{agent}</h5>
         <p>{agentRole}</p>
       </div>
-      <div></div>
     </div>
   );
 };

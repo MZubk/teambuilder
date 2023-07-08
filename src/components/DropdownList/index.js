@@ -9,7 +9,9 @@ const DropdownList = (props) => {
         required={props.required}
         value={props.value}
       >
-        <option value=""></option>
+        <option disabled value="">
+          {props.placeholder}
+        </option>
         {props.items.map((item) => (
           <option key={item}>{item}</option>
         ))}

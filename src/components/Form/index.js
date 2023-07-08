@@ -37,6 +37,7 @@ const Form = (props) => {
           items={props.agentList.map((agent) => agent.name)}
           value={agent}
           onAltered={(value) => setAgent(value)}
+          placeholder="Selecione um Agente"
         />
         <DropdownList
           required={true}
@@ -44,6 +45,7 @@ const Form = (props) => {
           items={props.mapList}
           value={mapsList}
           onAltered={(value) => setMapsList(value)}
+          placeholder="Selecione um Mapa"
         />
         <Button>Criar Card</Button>
       </form>
