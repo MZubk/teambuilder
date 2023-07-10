@@ -10,13 +10,13 @@ const Player = ({ agent, player, onDelete }) => {
       <div className="delete" onClick={onDelete}>
         X
       </div>
-      <div className="header">
-        <img src={agentImage} alt={agent} />
+      <div className="player_header">
+        <img className="player_img" src={agentImage} alt={agent} />
       </div>
-      <div className="footer_player">
-        <h4>{player}</h4>
-        <h5>{agent}</h5>
-        <p>{agentRole}</p>
+      <div className="player_footer">
+        <h4 className="player_name">{player}</h4>
+        <h5 className="player_agent">{agent}</h5>
+        <p className="player_role">{agentRole}</p>
       </div>
     </div>
   );

@@ -21,9 +21,9 @@ const Form = (props) => {
   };
 
   return (
-    <section className="form">
-      <form onSubmit={onSaved}>
-        <h2>Preencha os dados e monte o seu Time.</h2>
+    <section className="container_form">
+      <form onSubmit={onSaved} className="form">
+        <h2 className="form_title">Preencha os dados e monte o seu Time.</h2>
         <TextField
           required={true}
           label="Player"

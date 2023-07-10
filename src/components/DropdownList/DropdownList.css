@@ -2,14 +2,14 @@
     margin: 24px 0;
 }
 
-.dropdown__list label {
+.dropdown_label {
     display: block;
     margin-bottom: 8px;
     font-size: 24px;
     font-family: "Fira-Bold";
 }
 
-.dropdown__list select {
+.dropdown_select {
     background-color: var(--background);
     color: var(--grey);
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.20);
@@ -24,6 +24,6 @@
     -moz-appearance: none;
 }
 
-.dropdown__list option {
+.dropdown_option {
     font-family: "Fira-Retina";
 }

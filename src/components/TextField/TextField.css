@@ -1,16 +1,16 @@
-.text__field {
+.text_field {
     margin: 24px 0;
 
 }
 
-.text__field label {
+.text_field-label {
     display: block;
     margin-bottom: 8px;
     font-size: 24px;
     font-family: "Fira-Bold";
 }
 
-.text__field input {
+.text_field-input {
     background-color: var(--background);
     color: var(--grey);
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.20);

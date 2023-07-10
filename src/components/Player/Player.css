@@ -3,12 +3,12 @@
     width: 280px;
 }
 
-.player .header {
+.player_header {
     background-color: var(--dark_red);
     border-radius: 10px 10px 0px 0px;
 }
 
-.player img {
+.player_img {
     /* width: 100px; */
     background-color: var(--background);
     border-radius: 50%;
@@ -16,7 +16,7 @@
     bottom: -50px;
 }
 
-.player .footer_player {
+.player_footer {
     background: var(--background);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
     border-radius: 0px 0px 10px 10px;
@@ -24,7 +24,7 @@
     padding-bottom: 40px;
 }
 
-.player .footer_player h4 {
+.player_name {
     color: green;
     font-size: 18px;
     line-height: 22px;
@@ -32,14 +32,14 @@
     margin-bottom: 8px;
 }
 
-.player .footer_player h5 {
+.player_agent {
     color: var(--grey);
     font-size: 18px;
     line-height: 22px;
     padding: 0 16px;
 }
 
-p {
+p.player_role {
     color: var(--red);
     font-family: "Fira-Bold";
 }
