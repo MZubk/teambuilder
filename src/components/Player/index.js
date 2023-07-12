@@ -1,15 +1,12 @@
 import agentImages from "../Agents";
 import "./Player.css";
 
-const Player = ({ agent, player, onDelete }) => {
+const Player = ({ agent, player }) => {
   const agentData = agentImages[agent];
   const agentImage = agentData.image;
   const agentRole = agentData.role;
   return (
     <div className="player">
-      <div className="delete" onClick={onDelete}>
-        X
-      </div>
       <div className="player_header">
         <img className="player_img" src={agentImage} alt={agent} />
       </div>

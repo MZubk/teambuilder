@@ -1,7 +1,7 @@
 import Player from "../Player";
 import "./Team.css";
 
-const Team = (team, onDelete) => {
+const Team = (team) => {
   return team.players.length > 0 ? (
     <section className="team" style={{ backgroundColor: team.background }}>
       <h3 className="team_title">{team.name}</h3>
@@ -14,7 +14,6 @@ const Team = (team, onDelete) => {
               player={player.name}
               agent={player.agent}
               mapsList={player.mapsList}
-              onDelete={onDelete}
             />
           );
         })}

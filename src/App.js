@@ -112,10 +112,6 @@ function App() {
     setPlayers([...players, player]);
   };
 
-  function deletePlayer() {
-    console.log("apagando player");
-  }
-
   return (
     <div className="App">
       <Banner />
@@ -133,7 +129,6 @@ function App() {
             players={players.filter(
               (player) => player.mapsList === mapsList.name
             )}
-            onDelete={deletePlayer}
           />
         ))}
       </section>
