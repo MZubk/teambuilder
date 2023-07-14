@@ -4,20 +4,21 @@ import TextField from "../TextField";
 import Button from "../Button";
 import "./Form.css";
 
-const Form = (props) => {
+const Form = ({ onNewPlayers, agentList, mapList }) => {
   const [name, setName] = useState("");
   const [agent, setAgent] = useState("");
   const [mapsList, setMapsList] = useState("");
 
   const onSaved = (event) => {
     event.preventDefault();
-    props.newPlayerRegistered({
+    onNewPlayers({
       name,
       agent,
       mapsList,
     });
     setName("");
     setAgent("");
+    setMapsList("");
   };
 
   return (
@@ -34,7 +35,7 @@ const Form = (props) => {
         <DropdownList
           required={true}
           label="Agente"
-          items={props.agentList.map((agent) => agent.name)}
+          items={agentList.map((agent) => agent.name)}
           value={agent}
           onAltered={(value) => setAgent(value)}
           placeholder="Selecione um Agente"
@@ -42,7 +43,7 @@ const Form = (props) => {
         <DropdownList
           required={true}
           label="Mapa"
-          items={props.mapList}
+          items={mapList}
           value={mapsList}
           onAltered={(value) => setMapsList(value)}
           placeholder="Selecione um Mapa"
