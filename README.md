@@ -7,9 +7,11 @@
 >todos os mapas ate Lotus.
 
 Uma ferramenta para criar composições de times para o Valorant, você poderá escolher qual Agente cada Player joga em cada Mapa.<br>
-foi adicionado a função de apagar o agente adicionado
+foi adicionado a função de apagar o agente adicionado.
 
-<h2>Projeto criado em Create React App (CRA)</h2>
+<h2>Site do projeto na versel https://teambuilder-psi.vercel.app/</h2>
+
+<h3>Projeto criado em Create React App (CRA)</h3>
 
 [Create React App](https://github.com/facebook/create-react-app).
 
