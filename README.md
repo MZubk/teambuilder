@@ -1,4 +1,4 @@
-# Readings
+# Team Builder
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/MZubk/teambuilder?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/MZubk/teambuilder?style=for-the-badge)
