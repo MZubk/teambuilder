@@ -1,36 +1,42 @@
-<h1>Site do Team Builder</h1>
+# Readings
 
-><h3>Status do projeto: Em desenvolvimento.</h3>
-
-><h4>Atualmente o projeto possui:</h4>
->todos os agentes ate a Deadlock.<br>
->todos os mapas ate Lotus.
-
-Uma ferramenta para criar composições de times para o Valorant, você poderá escolher qual Agente cada Player joga em cada Mapa.<br>
-foi adicionado a função de apagar o agente adicionado.
-
-<h2>Site do projeto na versel https://teambuilder-psi.vercel.app/</h2>
-
-<h3>Projeto criado em Create React App (CRA)</h3>
-
-[Create React App](https://github.com/facebook/create-react-app).
-
-Para rodar esse pejeto em sua maquina instale o CRA:
-
-```
-create-react-app
-```
-
-No diretório do projeto, você pode executar:
-
-```
-npm start
-```
-
-Executa o aplicativo no modo de desenvolvimento.\
-Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu navegador.
-
-A página será recarregada quando você fizer alterações.\
-Você também pode ver erros de lint no console.
+![GitHub repo size](https://img.shields.io/github/repo-size/MZubk/teambuilder?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/MZubk/teambuilder?style=for-the-badge)
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 
 
+<a href="https://teambuilder-psi.vercel.app/">Team Builder</a>
+<p>entre e crie sua comp do Valorant</p>
+
+<img src="https://github.com/MZubk/teambuilder/assets/69257259/ca5b289e-fc01-43b9-8f57-a48e5a632a4b" alt="Pagina inicial do site TeamBuilder">
+
+> Pagina inicial do TeamBuilder, desenvolvido com React usando o CRA (Create React App), usuario pode criar sua composição para cada mapa do Valorant
+
+<img src="https://user-images.githubusercontent.com/69257259/261077209-96c600e8-3913-4d6e-b68b-4b30498a0a20.png" alt="Comp de agentes do Valorant nos mapas Ascent e Bind">
+
+> Exemplo de como fica a Comp de agentes do Valorant nos mapas Ascent e Bind
+
+### Ajustes e melhorias
+
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+
+ainda preciso ajustar o botão [x] que deveria exluir apenas um card e atualmente esta excluindo todos.
+
+## 🤝 Colaboradores
+
+Colaboradores desse projeto:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://github.com/mzubk.png" width="100px;" alt="Foto do Murillo Zubk no GitHub"/><br>
+        <sub>
+          <b>Murillo Zubk</b>
+        </sub>
+      </a>
+    </td>    
+  </tr>
+</table>
